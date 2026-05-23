@@ -1,0 +1,17 @@
+.card {
+  border: 2px solid #333;
+  padding: 20px;
+  width: 300px;
+  margin: 50px auto;
+  text-align: center;
+  border-radius: 10px;
+  font-family: Arial;
+}
+input {
+  width: 50px;
+}
+button {
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
