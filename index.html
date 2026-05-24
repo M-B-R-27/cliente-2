@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>CHAT</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+     <header>
+        <div class="header-avatar">
+            <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 12c2.7 0 4.8-2.1 4.8-4.8S14.7 2.4 12 2.4 7.2 4.5 7.2 7.2 9.3 12 12 12zm0 2.4c-3.2 0-9.6 1.6-9.6 4.8v2.4h19.2v-2.4c0-3.2-6.4-4.8-9.6-4.8z"/>
+            </svg>
+        </div>
+
+        <div class="header-info">
+            <p class="nombre" id="nombre-usuario">Alison Medina</p>
+            <p class="estado" id="estado-usuario">escribiendo...</p>
+        </div>
+    </header>
+
+    <main>
+      <div class="chat-body" id="chat-body">
+
+          <div class="mensaje recibido">
+              <p>Hola! ¿Cómo vas en el juego?</p>
+              <span class="hora">10:32</span>
+          </div>
+
+          <div class="mensaje enviado">
+              <p>Todo bien, acabo de subir de nivel 🎮</p>
+              <span class="hora">10:33</span>
+          </div>
+
+          <div class="mensaje recibido">
+              <p>Qué crack! Yo sigo atascado jaja</p>
+              <span class="hora">10:34</span>
+          </div>
+
+          <div class="mensaje enviado">
+              <p>Te paso tips luego 👊</p>
+              <span class="hora">10:34</span>
+          </div>
+
+      </div>
+    </main>
+
+    <footer class="chat-input-area">
+      <input
+        type="text"
+        id="input-mensaje"
+        class="input-mensaje"
+        placeholder="Escribe un mensaje..."
+        autocomplete="off"
+      />
+      <button id="btn-enviar" class="btn-enviar">
+        <!-- Ícono de enviar -->
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+        </svg>
+      </button>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
